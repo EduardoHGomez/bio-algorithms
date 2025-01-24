@@ -21,6 +21,7 @@ def random_min(func, xlow, xhigh, n):
 	xrand2 = random.randint(xlow[1], xhigh[1])
 
 	# Evaluate the solution
+	fitness = 1 / (1 + func([xrand1, xrand2]))
 
 
 	return xmin
