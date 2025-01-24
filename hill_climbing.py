@@ -13,12 +13,16 @@ def rosenbrock(x): # Receiving an array
 
 
 # Hill Climbing algorithm
-def hc_min():
-	pass
 
 
 def random_min(func, xlow, xhigh, n):
-	xmin = 0
+	# Minimun randomn
+	xrand1 = random.randint(xlow[0], xhigh[0])
+	xrand2 = random.randint(xlow[1], xhigh[1])
+
+	# Evaluate the solution
+
+
 	return xmin
 
 
